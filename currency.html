@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="currency.css">
+    <title>Currency converter</title>
+</head>
+<body>
+    <div class="nav-first">
+        <div class="logo">
+            <h2>Wise</h2>
+            <p><a href="#"><span> Personal</span></a></p>
+            <p><a href="#">Business</a></p>
+        </div>
+
+        <div class="list">
+        <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricy</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Log in</a></li>
+        </ul>
+
+       <div class="btn">
+        <button>Register</button>
+    </div>
+    </div>
+    
+    
+    </div>
+
+    <!-- second navbar -->
+    <div class="second-nav">
+        <ul>
+            <li><a href="#">Currency Converter</a></li>
+            <li><a href="#">Browse all currencies</a></li>
+            <li><a href="#">Get rate alerts</a></li>
+            <li><a href="#">Compare bank rates</a></li>
+        </ul>
+    </div>
+
+
+        <!-- the amount -->
+    <div class="container">
+        <div class="amount">
+            <p>Amount</p>
+            <div class="amount-container">
+                <input id='input' type="text" placeholder="1000">
+                <div class="custom-select">
+                    <select>
+                        <option value="ngn" class="ng">🇳🇬  (NGN)</option>
+                        <option value="usd" class="us">🇺🇸  (USD)</option>
+                        <option value="gbp" class="gb">🇬🇧  (GBP)</option>
+                        <option value="eur" class="eu">🇪🇺  (EUR)</option>
+                        <option value="jpy" class="jp">🇯🇵  Yen (JPY)</option>
+                        <option value="inr" class="in">🇮🇳  (INR)</option>
+                        <option value="cad" class="ca">🇨🇦  (CAD)</option>
+                        <option value="aud" class="au">🇦🇺  (AUD)</option>
+                        <option value="chf" class="ch">🇨🇭  (CHF)</option>
+                        <option value="cny" class="cn">🇨🇳  (CNY)</option>
+                        <option value="eur" class="de">🇩🇪  (EUR)</option>
+                        <option value="eur" class="fr">🇫🇷  (EUR)</option>
+                        <option value="eur" class="it">🇮🇹  (EUR)</option>
+                        <option value="brl" class="br">🇧🇷 (BRL)</option>
+                        <option value="rub" class="ru">🇷🇺  (RUB)</option>
+                        <option value="zar" class="za">🇿🇦  (ZAR)</option>
+                        <option value="mxn" class="mx">🇲🇽  (MXN)</option>
+                        <option value="krw" class="kr">🇰🇷  (KRW)</option>
+                        <option value="sar" class="sa">🇸🇦  (SAR)</option>
+                        <option value="aed" class="ae">🇦🇪  (AED)</option>
+                        <option value="sgd" class="sg">🇸🇬  (SGD)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="amount-equated">
+                <button class="btn-send">Convert</button>
+                <h2>£1.000 GBP = </h2>
+                <h2>€ <span class="rate">1.169</span> EUR </h2>
+
+            </div>
+        </div>
+
+        <!-- the arrow for conversion -->
+
+        <div class="arrow">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    
+        <!-- the converter -->
+        <div class="convert-currencies">
+            
+            <p>Converted to</p>
+            <div class="convert-container">
+                <input id='output' type="text">
+                <div class="custom-select">
+                    <select>
+                        <option value="gbp" class="gb">🇬🇧  (GBP)</option>
+                        <option value="usd" class="us">🇺🇸  (USD)</option>
+                        <option value="eur" class="eu">🇪🇺  (EUR)</option>
+                        <option value="jpy" class="jp">🇯🇵  (JPY)</option>
+                        <option value="inr" class="in">🇮🇳  (INR)</option>
+                        <option value="cad" class="ca">🇨🇦  (CAD)</option>
+                        <option value="aud" class="au">🇦🇺  (AUD)</option>
+                        <option value="chf" class="ch">🇨🇭  (CHF)</option>
+                        <option value="cny" class="cn">🇨🇳  (CNY)</option>
+                        <option value="eur" class="de">🇩🇪  (EUR)</option>
+                        <option value="eur" class="fr">🇫🇷  (EUR)</option>
+                        <option value="eur" class="it">🇮🇹  (EUR)</option>
+                        <option value="brl" class="br">🇧🇷  (BRL)</option>
+                        <option value="rub" class="ru">🇷🇺  (RUB)</option>
+                        <option value="zar" class="za">🇿🇦  (ZAR)</option>
+                        <option value="mxn" class="mx">🇲🇽  (MXN)</option>
+                        <option value="krw" class="kr">🇰🇷  (KRW)</option>
+                        <option value="sar" class="sa">🇸🇦  (SAR)</option>
+                        <option value="aed" class="ae">🇦🇪  (AED)</option>
+                        <option value="sgd" class="sg">🇸🇬  (SGD)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="button">
+                <button>Track the Exchange Rate</button>
+                <button class="btn-send">Send Money</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="currency.js"></script>
+    
+</body>
+</html>

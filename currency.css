@@ -1,0 +1,245 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-first{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    background-color: green;
+
+   
+}
+
+.logo{
+    display: inline-flex;
+    margin-left: 60px;
+   color: rgb(126, 252, 0);
+   
+    
+}
+
+.logo h2{
+   margin: 20px;
+   font-size: 30px;
+
+}
+
+.logo p{
+  margin-top: 25px;
+  margin: 25px;
+ 
+  
+  
+}
+
+.logo p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(126, 252, 0);
+   
+}
+
+.list{
+    display: flex;
+    margin-right: 15%;
+    padding-top: 15px;
+  
+}
+
+.list ul li{
+    display: inline;
+    font-size: 20px;
+    margin: 20px;
+   
+   
+  
+}
+
+.list li a{
+
+    text-decoration: none;
+    color: rgb(126, 252, 0);
+}
+
+
+
+.btn button{
+    width: 170%;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+    margin-top: 3px;
+    background-color: rgba(126, 252, 0, 0.791);
+    border: 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.second-nav{
+    background-color: rgb(3, 47, 7);
+   height: 10vh;
+   padding-top: 20px;
+}
+
+.second-nav ul{
+    display: flex;
+    margin-left: 15px;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.second-nav ul li{
+    margin-bottom: 30%;
+   
+   
+}
+
+.second-nav ul li a{
+    text-decoration: none;
+    color: rgb(126, 252, 0);
+    font-size: 20px;
+    
+}
+
+
+.container{
+    width: 70%;
+    margin-top:200px ;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(57, 57, 57);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: white;
+}
+
+
+.amount-container, .convert-container{
+    border: 1px solid rgb(45, 44, 44);
+    display: flex;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+input[type="text"], select{
+ border: none;
+ outline: none;
+ font-size: 20px;
+}
+
+.arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.arrow i{
+    width: 40px;
+}
+.custom-select {
+    position: relative;
+    width: 150px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.custom-select select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    appearance: none;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.custom-select option {
+    padding-left: 90px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+/* Flag Images */
+.custom-select option.us { background-image: url('https://flagcdn.com/us.svg'); }
+.custom-select option.gb { background-image: url('https://flagcdn.com/gb.svg'); }
+.custom-select option.eu { background-image: url('https://flagcdn.com/eu.svg'); }
+.custom-select option.jp { background-image: url('https://flagcdn.com/jp.svg'); }
+.custom-select option.in { background-image: url('https://flagcdn.com/in.svg'); }
+.custom-select option.ca { background-image: url('https://flagcdn.com/ca.svg'); }
+.custom-select option.au { background-image: url('https://flagcdn.com/au.svg'); }
+.custom-select option.ch { background-image: url('https://flagcdn.com/ch.svg'); }
+.custom-select option.cn { background-image: url('https://flagcdn.com/cn.svg'); }
+.custom-select option.de { background-image: url('https://flagcdn.com/de.svg'); }
+.custom-select option.fr { background-image: url('https://flagcdn.com/fr.svg'); }
+.custom-select option.it { background-image: url('https://flagcdn.com/it.svg'); }
+.custom-select option.br { background-image: url('https://flagcdn.com/br.svg'); }
+.custom-select option.ru { background-image: url('https://flagcdn.com/ru.svg'); }
+.custom-select option.za { background-image: url('https://flagcdn.com/za.svg'); }
+.custom-select option.mx { background-image: url('https://flagcdn.com/mx.svg'); }
+.custom-select option.kr { background-image: url('https://flagcdn.com/kr.svg'); }
+.custom-select option.sa { background-image: url('https://flagcdn.com/sa.svg'); }
+.custom-select option.ae { background-image: url('https://flagcdn.com/ae.svg'); }
+.custom-select option.sg { background-image: url('https://flagcdn.com/sg.svg'); }
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 20px;
+    width: 100%;
+}
+
+.button button{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.button .btn-send{
+    background-color: rgb(117, 240, 117);
+    border: none;
+}
+
+.amount-equated{
+    display: flex;
+
+}
+.rate{
+    color: rgb(164, 221, 164);
+}
+
+.custom-select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
